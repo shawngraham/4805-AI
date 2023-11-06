@@ -8,6 +8,7 @@
   "schedule": "/schedule",
   "contact": "/contact",
   "tech": "/tech",
+  "policies": "/policies",
   "social": [
     {
       "title": "GitHub",
