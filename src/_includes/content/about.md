@@ -18,3 +18,7 @@ _AI of an earlier age_
 The 'Draughtsman-Writer', by Henri Maillardet, [Science Museum](https://blog.sciencemuseum.org.uk/introducing-the-draughtsman-writer-automaton/)
 
 'Tipus Tiger', The [Victoria and Albert Museum](https://www.vam.ac.uk/articles/tipus-tiger)
+
+### Other Images
+
+AI-generated art created using a combination of NightCafe Creator and DiffusionBee.
