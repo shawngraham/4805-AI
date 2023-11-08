@@ -20,16 +20,26 @@
   h5 {
     @apply text-base font-medium italic mt-3 mb-1;
   }
-  a {
-    @apply cursor-pointer hover:underline;
-  }
+  
 }
 
-p a { /* Selects links (a) that are inside paragraphs (p) */
-  text-decoration: underline; /* Enables underline */
-  text-decoration-color: lightgrey; /* Sets the underline color to light grey */
-  text-decoration-style: wavy; /* Sets a wavy underline style to create a 'fuzzy' look */
-  text-decoration-thickness: 2px; /* Adjust underline thickness if needed */
-  text-underline-offset: 3px; /* Adjusts the position of the underline relative to the text */
+p a {
+  position: relative; /* Ensures that the pseudo-element is positioned in relation to the link */
+  text-decoration: none; /* Removes default underline */
 }
 
+p a::after {
+  content: ''; /* Necessary for a pseudo-element */
+  position: absolute; /* Absolute positioning within the relative container */
+  bottom: 0; /* Positions at the bottom of the link */
+  left: 0; /* Aligns with the left side of the link */
+  width: 100%; /* Full width relative to the link element */
+  height: 5px; /* The thickness of the underline */
+  background: darkred; /* Underline color */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); /* Creates fuzzy effect */
+  opacity: 0.6; /* Adjust for lighter grey effect, can be set as desired */
+}
+
+p a:hover::after {
+  visibility: hidden; /* Hides the pseudo-element */
+}
