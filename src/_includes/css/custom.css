@@ -17,6 +17,7 @@ body {
   height: -webkit-fill-available;
 }
 
+
 ol {
   padding: revert !important;
 }
@@ -150,3 +151,5 @@ main > div {
     transform: translate3d(0, -15%, 0);
   }
 }
+
+

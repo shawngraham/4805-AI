@@ -24,3 +24,12 @@
     @apply cursor-pointer hover:underline;
   }
 }
+
+p a { /* Selects links (a) that are inside paragraphs (p) */
+  text-decoration: underline; /* Enables underline */
+  text-decoration-color: lightgrey; /* Sets the underline color to light grey */
+  text-decoration-style: wavy; /* Sets a wavy underline style to create a 'fuzzy' look */
+  text-decoration-thickness: 2px; /* Adjust underline thickness if needed */
+  text-underline-offset: 3px; /* Adjusts the position of the underline relative to the text */
+}
+
