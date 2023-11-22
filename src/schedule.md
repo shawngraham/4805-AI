@@ -103,7 +103,7 @@ Emily Bender, "Thought experiment in the National Library of Thailand. Medium, M
 
 Neural networks, transformers, and attention
 
-### Week 4 The OpenAI Civil War of 4.20 pm November 17 2023 - 5 pm November 22 1.14 am 2023
+### Week 4 The OpenAI Civil War of 4.20 pm November 17 2023 - 1.14 am November 22 2023
 
 Competing philosophies, governance, capitalism, and the _imagined_ dangers of AI
 
