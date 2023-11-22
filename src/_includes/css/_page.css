@@ -40,6 +40,87 @@ p a::after {
   opacity: 0.6; /* Adjust for lighter grey effect, can be set as desired */
 }
 
+
+
 p a:hover::after {
   visibility: hidden; /* Hides the pseudo-element */
 }
+
+/* Add rules for paragraphs */
+  p {
+    @apply my-4; /* Tailwind utility for margin top and bottom */
+  }
+
+ol {
+  list-style: none; /* Remove default list styling */
+  padding-left: 0;  /* Remove padding, if desired */
+  margin-left: 0;   /* Align with parent container */
+}
+
+li {
+  position: relative; /* Set up a positioning context */
+  padding-left: 30px; /* Add space for the manicule and some extra padding */
+}
+
+li::before {
+   content: '\261E';  /* Unicode character for a right-pointing white hand (manicule) */
+   position: absolute; /* Position absolutely within the `li` element */
+   left: 0;            /* Position to the left of the list item content */
+   top: 0;             /* Align with the top of the list item */
+   font-size: 20px;    /* Adjust based on desired size */
+   line-height: 1;     /* Adjust line height to align correctly with text */
+   color: #000;        /* Manicule color, change as needed */
+   pointer-events: none; /* Ensure clicks go through the pseudo-element */
+}
+
+li a {
+  position: relative; /* Ensures that the pseudo-element is positioned in relation to the link */
+  text-decoration: none; /* Removes default underline */
+}
+
+li a::after {
+  content: ''; /* Necessary for a pseudo-element */
+  position: absolute; /* Absolute positioning within the relative container */
+  bottom: 0; /* Positions at the bottom of the link */
+  left: 0; /* Aligns with the left side of the link */
+  width: 100%; /* Full width relative to the link element */
+  height: 5px; /* The thickness of the underline */
+  background: darkred; /* Underline color */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); /* Creates fuzzy effect */
+  opacity: 0.6; /* Adjust for lighter grey effect, can be set as desired */
+}
+
+ol li {
+  position: relative; /* Set up a positioning context */
+  padding-left: 30px; /* Add space for the manicule and some extra padding */
+}
+
+ol li::before {
+   content: '\261E';  /* Unicode character for a right-pointing white hand (manicule) */
+   position: absolute; /* Position absolutely within the `li` element */
+   left: 0;            /* Position to the left of the list item content */
+   top: 0;             /* Align with the top of the list item */
+   font-size: 20px;    /* Adjust based on desired size */
+   line-height: 1;     /* Adjust line height to align correctly with text */
+   color: #000;        /* Manicule color, change as needed */
+   pointer-events: none; /* Ensure clicks go through the pseudo-element */
+}
+
+ol li a {
+  position: relative; /* Ensures that the pseudo-element is positioned in relation to the link */
+  text-decoration: none; /* Removes default underline */
+}
+
+ol li a::after {
+  content: ''; /* Necessary for a pseudo-element */
+  position: absolute; /* Absolute positioning within the relative container */
+  bottom: 0; /* Positions at the bottom of the link */
+  left: 0; /* Aligns with the left side of the link */
+  width: 100%; /* Full width relative to the link element */
+  height: 5px; /* The thickness of the underline */
+  background: darkred; /* Underline color */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); /* Creates fuzzy effect */
+  opacity: 0.6; /* Adjust for lighter grey effect, can be set as desired */
+}
+
+

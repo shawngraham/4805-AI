@@ -11,12 +11,13 @@ desc: What we'll do when
 I began working on this course during my 2023/24 sabbatical. I duly added materials as I found them to my Zotero library, I read and played and experimented. And I found that everything kept changing...
 
 <div align=center>
+
 ..._so_
-<Br>
+
 ..._damned_
-<br>
+
 ..._quickly_
-<br>
+
 </div>
 
 ...that I'd have an idea for a really good activity, or I'd finally grokked something cool, and it would already be out of date. When you're tapdancing on a landslide there's not time to worry about whether you're doing it right.
@@ -36,19 +37,69 @@ What follows draws on my own explorations, _Future Text_, _Writing With Robots_,
 
 ## Course Description
 
+There is a lot of hype around 'ai'. Note the scare quotes. This class takes the approach that the current crop of large language models are actually representations of culture. Of history. Whose culture? Whose history? What is a large language model, how does it work, and why should we, as historians, care about those inner workings? Whom could a large language model hurt? Who could it help? Can these things help us do better history? What constitutes good history in an age of rapidly deployed and commercialized 'ai'? What do we need to know?
+
+I have nothing but questions for you. I will provide as much context as I can. We will, together, write a handbook to good history with large language models by the end of this course. The course will engage with the history, science, and culture of artificial intelligence research and commercialization, broadly understood. It is but a starting point, not the final word, on this subject.
+
 ## Learning Goals
+
+1. contextualize the emergence of large language models in terms of the historical and philosophical antecedents
+2. develop a critical perspective on the utility of these models
+3. situate their use in terms of the broader ethics of doing good history
+4. self-reflexive critical engagement with these technologies
+
 
 ## Syllabus Week by Week
 
 Each week will open with twenty to thirty minutes of freewriting. Try to identify the things that perplexed you in the readings before you came to class, and that you would like to talk about now. Revisit what you wrote in previous classes to connect with what you're thinking now. These pieces of writing will be collected each week into a [digital garden](https://maggieappleton.com/garden-history). At the end of this term we will use this writing in conjunction with an AI to examine what it is we, as a group, think about AI.
 
-### Week 1 The 20th C Dream of AI
+### Week 1 The Dream of AI
 
-...and why LLM are models of culture and history first and foremost.
+...and why LLM are models of culture and history first and foremost. You will come to class already having had a look at the readings. In this session I will introduce the main themes of the course, my expectations, we'll find out about your expectations, and we'll play with a simple language model and wonder: how can this represent intelligence? And if it _doesn't_, then what _does_ it represent?
+
+<div align="center">
+<iframe width="493" height="347" src="https://www.youtube.com/embed/KKVvI-7yiSA" title="MESLaM generation: I do not like them in a tree" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<br>
+
+#### Activities
+- Intro activity: Have you used GPT or similar, and for what?
+- Lecture/Discussion  
+- Markov Chains (a nice explanation <a href="https://p-mckenzie.github.io/2020/11/03/markov-chains/">here</a>; don't worry about the code section). Let's [play](https://classson.github.io/markov/).
+- Freewriting
+
+#### Readings
+
+Karawynn Long. "Language is a Poor Heuristic for Intelligence". Nine Lives blog, June 26, 2023. [link](https://karawynn.substack.com/p/language-is-a-poor-heuristic-for)
+
+Wang, Angie. "Is My Toddler a Stochastic Parrot?". The New Yorker, November 15, 2023. [link](https://www.newyorker.com/humor/sketchbook/is-my-toddler-a-stochastic-parrot.)
+
+Underwood, Ted. "Mapping the Latent Spaces of Culture" Startwords 3: Parrots. August 1, 2022. [original](https://startwords.cdh.princeton.edu/issues/3/mapping-latent-spaces/), [archived](https://doi.org/10.5281/ZENODO.6567481).
+
+---
 
 ### Week 2 Earlier Antecedents and A Digression into the Longer History of Representing Information as Bits
 
-### Week 3 2012 - 2022 Phase Transition
+In this week, I want to talk about the longer history of encoding 'information' or 'knowledge' outside of human brains (and why information might not be the same as knowledge). This'll be a deep dive, back to the origins of writing, but will also include a whirlwind tour of the foundations of digital computing.
+
+#### Activities
+- Freewriting; plant in [our digital garden](https://4805-garden.netlify.app). I'll walk you through this.
+- SG on information theory, Claude Shannon, Alan Turing, and a potted history of information from earliest times
+- Discussion
+- Nicholas Cardini: [AI Forecasting Challenge](https://nicholas.carlini.com/writing/llm-forecast/)
+
+#### Readings
+
+Haigh, Thomas. "Conjoined Twins: Artificial Intelligence and the Invention of Computer Science."" Communications of the ACM 66, no. 6 (May 24, 2023): 33–37. [link](https://doi.org/10.1145/3593007); [our library](https://dl-acm-org.proxy.library.carleton.ca/doi/pdf/10.1145/3593007).
+
+Haigh, Thomas. "There Was No 'First AI Winter.'"" Communications of the ACM 66, no. 12 (November 17, 2023): 35–39. [link](https://doi.org/10.1145/3625833); [our library](https://dl-acm-org.proxy.library.carleton.ca/doi/pdf/10.1145/3625833).
+
+Stephen Wolfram, "What is ChatGPT Doing... And Why Does It Work?". Writings blog, February 14, 2023. [link](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+
+Emily Bender, "Thought experiment in the National Library of Thailand. Medium, May 24, 2023. [link](https://medium.com/@emilymenonbender/thought-experiment-in-the-national-library-of-thailand-f2bf761a8a83)
+
+---
+
+### Week 3 Phase Transition, 2012 - 2022
 
 Neural networks, transformers, and attention
 
